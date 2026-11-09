@@ -5,6 +5,11 @@ will arrive **on time or delayed** before it departs — enabling dispatchers
 to proactively reschedule high-risk deliveries and notify customers in advance.
 
 ---
+## 🌐 Live Demo
+
+**[Try the app here](https://delivery-delay-predictor-s56xsnmzmtvpxzuvfryzec.streamlit.app/)**
+
+Enter delivery details and the model predicts whether it will be on time or delayed.
 
 ## 📸 Demo
 
