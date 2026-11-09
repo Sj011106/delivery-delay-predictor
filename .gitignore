@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Spring Boot build output
+springboot/target/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -4,7 +4,7 @@ import numpy as np
 
 # ── Page Config ───────────────────────────────
 st.set_page_config(
-    page_title="JDI Delivery Delay Predictor",
+    page_title="Delivery Delay Predictor",
     page_icon="🚛",
     layout="centered"
 )
@@ -13,7 +13,7 @@ st.set_page_config(
 model = joblib.load('models/best_model.pkl')
 
 # ── Header ────────────────────────────────────
-st.title("🚛 JDI Delivery Delay Predictor")
+st.title("🚛 Delivery Delay Predictor")
 st.markdown("Enter delivery details to predict whether it will arrive **on time or delayed.**")
 st.divider()
 

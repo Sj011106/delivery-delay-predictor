@@ -1,6 +1,6 @@
-# 🚛 JDI Delivery Delay Predictor
+# 🚛 Delivery Delay Predictor
 
-A machine learning system that predicts whether a JD Irving truck delivery
+A machine learning system that predicts whether a truck delivery
 will arrive **on time or delayed** before it departs — enabling dispatchers
 to proactively reschedule high-risk deliveries and notify customers in advance.
 
@@ -22,13 +22,7 @@ to proactively reschedule high-risk deliveries and notify customers in advance.
 
 ## 🎯 Business Problem
 
-JD Irving operates one of Atlantic Canada's largest trucking networks through
-Midland Transport and Sunbury Transport, moving thousands of shipments daily
-across New Brunswick, Nova Scotia, and beyond.
-
-Currently, dispatchers have no early warning system — they find out about
-delays only when drivers call in, by which point customers are already waiting.
-
+Trucking and logistics companies move thousands of shipments daily. Dispatchers usually learn about delays only after they happen. Currently, dispatchers have no early warning system — they find out about delays only when drivers call in, by which point customers are already waiting.
 This tool flags at-risk deliveries **before the truck leaves the depot**, giving
 dispatchers time to act.
 
@@ -112,7 +106,7 @@ Logistic Regression Model (scikit-learn)
 ## 📁 Project Structure
 
 ```
-jdi-delivery-delay-predictor/
+delivery-delay-predictor/
 ├── data/
 │   ├── raw/                         ← generated synthetic dataset
 │   └── processed/                   ← cleaned and encoded dataset
@@ -202,13 +196,13 @@ App opens at http://localhost:8501
 ## 👤 Author
 
 Built as a co-op portfolio project demonstrating ML engineering
-skills relevant to JD Irving Limited's transportation operations.
+skills relevant to transportation operations.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project uses synthetic data generated to simulate JDI's
+This project uses synthetic data generated to simulate
 trucking operations. It is not affiliated with or endorsed by
-JD Irving Limited. All data was artificially generated for
+any corporation/company. All data was artificially generated for
 educational and portfolio purposes.
